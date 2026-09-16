@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تعليمات حذف البيانات — Guidy</title>
+<meta name="description" content="تعليمات حذف البيانات — Guidy, public transport for Greater Cairo.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1722" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://guidy-19e46.web.app/data-deletion-ar">
+<link rel="alternate" hreflang="ar" href="https://guidy-19e46.web.app/data-deletion-ar">
+<link rel="alternate" hreflang="en" href="https://guidy-19e46.web.app/data-deletion">
+<style>@font-face{font-family:"Almarai";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/almarai-arabic-400.woff2) format("woff2");unicode-range:U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/almarai-latin-400.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/almarai-arabic-700.woff2) format("woff2");unicode-range:U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/almarai-latin-700.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/almarai-arabic-800.woff2) format("woff2");unicode-range:U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/almarai-latin-800.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Nunito Sans";font-style:normal;font-weight:400 800;font-display:swap;src:url(/fonts/nunito-sans-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{
+  --navy:#0b3d71; --blue:#2da3e3; --amber:#e88916;
+  --bg:#f8fafc; --card:#ffffff; --ink:#0b1b2b; --muted:#64748b;
+  --rule:#e2e8f0;
+  --g1:#0b3d71; --g2:#14548e; --g3:#1c75b0; --g4:#dc973c; --g5:#ffbc70;
+  --heading:#0b3d71; --link:#1c75b0; --accent-ink:#14548e;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --amber:#ffbc70;
+         --bg:#0f1722; --card:#182230; --ink:#ffffff; --muted:#94a3b8;
+         --rule:#223042;
+         --heading:#ffffff; --link:#2da3e3; --accent-ink:#ffbc70; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 "Nunito Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body[dir="rtl"]{
+  font-family:"Almarai","Segoe UI","Noto Sans Arabic",Tahoma,
+    -apple-system,BlinkMacSystemFont,Arial,sans-serif;
+  line-height:1.9;
+}
+/* The app's brandGradient (navy -> blue -> amber), as a thin top strip. */
+.brand-strip{height:4px;background:linear-gradient(90deg,
+  var(--g1) 0%,var(--g2) 28%,var(--g3) 58%,var(--g4) 80%,var(--g5) 100%)}
+body[dir="rtl"] .brand-strip{background:linear-gradient(270deg,
+  var(--g1) 0%,var(--g2) 28%,var(--g3) 58%,var(--g4) 80%,var(--g5) 100%)}
+.bar{max-width:760px;margin:0 auto;padding:24px 20px 0;
+  display:flex;align-items:center;justify-content:space-between;gap:16px}
+/* Both logos were showing at once. `.bar img` is (0,1,1) and
+   `.logo-dark` was (0,1,0), so the sizing rule's display:block beat the
+   hiding rule and neither logo could ever be hidden. It worked before
+   only because the selector used to be `header img` (0,0,2), which a
+   bare class outranks. Sizing and visibility are now separate concerns
+   at matching specificity. */
+.bar img{height:34px;width:auto}
+.bar .logo-light{display:block}
+.bar .logo-dark{display:none}
+@media (prefers-color-scheme:dark){
+  .bar .logo-light{display:none}
+  .bar .logo-dark{display:block}
+}
+.lang{color:var(--link);text-decoration:none;font-size:.9rem;font-weight:700;
+  background:var(--card);border:1px solid var(--rule);border-radius:999px;
+  padding:6px 14px;white-space:nowrap}
+.lang:hover{border-color:var(--blue)}
+main{max-width:760px;margin:0 auto;padding:20px}
+article{background:var(--card);border:1px solid var(--rule);
+  border-radius:16px;padding:28px 26px 32px;
+  box-shadow:0 1px 2px rgba(11,27,43,.04),0 8px 24px rgba(11,27,43,.05)}
+@media (prefers-color-scheme:dark){ article{box-shadow:none} }
+h1{font-size:1.6rem;line-height:1.3;margin:.2em 0 .1em;color:var(--heading);
+  font-weight:800}
+h2{font-size:1.12rem;margin:1.9em 0 .5em;padding-top:.9em;
+  border-top:1px solid var(--rule);color:var(--accent-ink);font-weight:700}
+h2::before{content:"";display:inline-block;width:4px;height:.95em;
+  margin-inline-end:.5em;vertical-align:-.1em;border-radius:2px;
+  background:var(--amber)}
+h2:first-of-type{border-top:0;padding-top:0}
+a{color:var(--link);text-underline-offset:2px}
+ul,ol{padding-inline-start:1.25em;padding-left:0}
+li{margin:.35em 0}
+/* Markers are text (the numbered deletion steps), so --link, not --blue. */
+li::marker{color:var(--link)}
+hr{border:0;border-top:1px solid var(--rule);margin:2em 0 1.2em}
+em{color:var(--muted);font-style:normal;font-size:.9rem}
+.meta{color:var(--muted);font-size:.86rem;margin:.2em 0 1.6em}
+footer{max-width:760px;margin:0 auto;padding:4px 20px 48px;
+  color:var(--muted);font-size:.86rem}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--link)}
+@media (max-width:520px){
+  article{padding:22px 18px 26px;border-radius:14px}
+  h1{font-size:1.32rem}
+}
+</style>
+</head>
+<body dir="rtl">
+<div class="brand-strip"></div>
+<div class="bar">
+  <a href="/ar"><img class="logo-light" src="/logo_light.png" alt="Guidy"><img class="logo-dark" src="/logo_dark.png" alt="Guidy"></a>
+  <a class="lang" href="/data-deletion" hreflang="en">English</a>
+</div>
+<main><article>
+<h1>تعليمات حذف البيانات</h1>
+<p>إذا أردت أن يحذف Guidy حسابك والبيانات المرتبطة به:</p>
+<ol>
+<li>افتح تطبيق Guidy.</li>
+<li>انتقل إلى <strong>الإعدادات</strong>.</li>
+<li>ضمن <strong>الحساب</strong>، اضغط على <strong>حذف الحساب</strong>.</li>
+<li>أكّد العملية. وإذا طُلب منك تسجيل الدخول مرة أخرى أولًا، فهذا إجراء
+   أمني معتاد من Firebase يسبق أي حذف نهائي، وليس خطوة إضافية يمكن
+   تخطّيها.</li>
+</ol>
+<p>يؤدي ذلك إلى حذف حسابك نهائيًا، ولا يمكن التراجع عنه. ولا يحتفظ خادم
+Guidy الخاص بتخطيط المسارات بأي نسخة منفصلة من بيانات حسابك، ولذلك فإن
+هذه العملية تشمل كل ما يعرفه التطبيق عنك.</p>
+<p><strong>استثناء واحد، نذكره صراحةً.</strong> إذا سبق أن أبلغتنا بأن مسارًا غير صحيح أو
+اقترحت مسارًا أفضل، فإن تلك البلاغات تبقى بعد حذف حسابك. فهي ما نستعين به
+لتصحيح بيانات النقل لصالح الجميع، والبلاغ عن خط حافلات يظل صحيحًا بصرف
+النظر عمّن أرسله. وإذا أردت حذف بلاغاتك أيضًا، فراسلنا على البريد
+الإلكتروني الوارد في نهاية هذه الصفحة، مع ذكر البريد الإلكتروني المرتبط
+بحسابك، وسنحذفها.</p>
+<p><strong>سجّلت الدخول عبر Facebook ولم يعد بإمكانك فتح التطبيق، أو تريد إلغاء
+صلاحية الوصول دون حذف حساب Guidy؟</strong> يمكنك أيضًا إزالة صلاحية Guidy من
+Facebook مباشرةً: <strong>الإعدادات والخصوصية</strong> ثم <strong>الإعدادات</strong> ثم <strong>الأمان
+وتسجيل الدخول</strong> ثم <strong>التطبيقات والمواقع الإلكترونية</strong>، ثم اختر <strong>Guidy</strong>
+ثم <strong>إزالة</strong>. ولاحظ أن هذا يلغي ارتباط Facebook بحسابك على Guidy فقط، ولا
+يحذف حساب Guidy نفسه؛ ولحذفه استخدم خطوات الحذف داخل التطبيق أعلاه.</p>
+<p>للاستفسار عن هذه العملية: guidygroup@gmail.com</p>
+</article></main>
+<footer>للاستفسار: <a href="mailto:guidygroup@gmail.com">guidygroup@gmail.com</a> &nbsp;·&nbsp; <a href="/privacy-ar">سياسة الخصوصية</a> &nbsp;·&nbsp; <a href="/terms-ar">الشروط والأحكام</a> &nbsp;·&nbsp; <a href="/data-deletion-ar">حذف البيانات</a></footer>
+</body>
+</html>

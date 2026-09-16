@@ -1,0 +1,1088 @@
+{
+  "@@locale": "en",
+
+  "appTagline": "Navigate Egypt with intelligence",
+  "@appTagline": {},
+
+  "goodMorning": "Good Morning",
+  "@goodMorning": {},
+
+  "goodMorningUser": "Good morning, {name}",
+  "@goodMorningUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+
+  "goodAfternoon": "Good Afternoon",
+  "@goodAfternoon": {},
+
+  "goodAfternoonUser": "Good afternoon, {name}",
+  "@goodAfternoonUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+
+  "goodEvening": "Good Evening",
+  "@goodEvening": {},
+
+  "goodEveningUser": "Good evening, {name}",
+  "@goodEveningUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+
+  "goodNight": "Good Night",
+  "@goodNight": {},
+
+  "goodNightUser": "Good night, {name}",
+  "@goodNightUser": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+
+  "whereTo": "Where to?",
+  "@whereTo": {},
+
+  "quickAccessHome": "Home",
+  "@quickAccessHome": {},
+
+  "quickAccessWork": "Work",
+  "@quickAccessWork": {},
+
+  "quickAccessSaved": "Saved",
+  "@quickAccessSaved": {},
+
+  "routingTo": "Routing to {name}...",
+  "@routingTo": {
+    "placeholders": { "name": {"type": "String"} }
+  },
+
+  "gpsRequiredToRoute": "Ensure GPS is enabled to route.",
+  "@gpsRequiredToRoute": {},
+
+  "resettingLocation": "Resetting {key} location...",
+  "@resettingLocation": {
+    "placeholders": { "key": {"type": "String"} }
+  },
+
+  "locationUnavailable": "Could not get location. Ensure GPS is enabled.",
+  "@locationUnavailable": {},
+
+  "setLocationTitle": "Set {key}",
+  "@setLocationTitle": {
+    "placeholders": { "key": {"type": "String"} }
+  },
+
+  "locationSavedAs": "{key} saved as {name}",
+  "@locationSavedAs": {
+    "placeholders": {
+      "key": {"type": "String"},
+      "name": {"type": "String"}
+    }
+  },
+
+  "searchOrTapMap": "Search or tap map...",
+  "@searchOrTapMap": {},
+
+  "saveAsKey": "Save as {key}",
+  "@saveAsKey": {
+    "placeholders": { "key": {"type": "String"} }
+  },
+
+  "pickupLocation": "Pickup Location",
+  "@pickupLocation": {},
+
+  "gpsFetchFailed": "Failed to get GPS location.",
+  "@gpsFetchFailed": {},
+
+  "findRoutes": "Find Routes",
+  "@findRoutes": {},
+
+  "routeOptionsTitle": "Route Options",
+  "@routeOptionsTitle": {},
+
+  "routeCalculationFailed": "Could not calculate route.",
+  "@routeCalculationFailed": {},
+
+  "errorPrefix": "Error: {message}",
+  "@errorPrefix": {
+    "placeholders": { "message": {"type": "String"} }
+  },
+
+  "availableRoutes": "Available Routes",
+  "@availableRoutes": {},
+
+  "statDuration": "Duration",
+  "@statDuration": {},
+
+  "statFare": "Fare",
+  "@statFare": {},
+
+  "statCrowds": "Crowds",
+  "@statCrowds": {},
+
+  "statDistance": "Distance",
+  "@statDistance": {},
+
+  "routeTimeBreakdown": "{riding} min travelling · about {wait} min waiting",
+  "@routeTimeBreakdown": {
+    "placeholders": {"riding": {"type": "String"}, "wait": {"type": "String"}}
+  },
+  "stepWaitHint": "Wait about {wait} min",
+  "@stepWaitHint": {
+    "placeholders": {"wait": {"type": "String"}}
+  },
+
+  "durationMinutes": "{minutes} min",
+  "@durationMinutes": {
+    "placeholders": {"minutes": {"type": "String"}}
+  },
+  "distanceKm": "{km} km",
+  "@distanceKm": {
+    "placeholders": {"km": {"type": "String"}}
+  },
+  "fareEgp": "{amount} EGP",
+  "@fareEgp": {
+    "placeholders": {"amount": {"type": "String"}}
+  },
+  "alsoWorksLabel": "Also works: {routes}",
+  "@alsoWorksLabel": {
+    "placeholders": {"routes": {"type": "String"}}
+  },
+  "routeEveryMinutes": "{route} (~every {minutes} min)",
+  "@routeEveryMinutes": {
+    "placeholders": {"route": {"type": "String"}, "minutes": {"type": "String"}}
+  },
+  "listSeparator": ", ",
+  "@listSeparator": {},
+
+  "navNowLabel": "Now",
+  "@navNowLabel": {},
+  "navOtherVehicles": "Other vehicles",
+  "@navOtherVehicles": {},
+  "navAlsoServing": "Also serving this leg",
+  "@navAlsoServing": {},
+  "navYourRoute": "Your route",
+  "@navYourRoute": {},
+  "navMinutesAway": "~{minutes} min away",
+  "@navMinutesAway": {
+    "placeholders": {"minutes": {"type": "String"}}
+  },
+  "navArrivingNow": "Arriving now",
+  "@navArrivingNow": {},
+  "navEveryMinutes": "every ~{minutes} min",
+  "@navEveryMinutes": {
+    "placeholders": {"minutes": {"type": "String"}}
+  },
+  "navNoLiveData": "No live data yet",
+  "@navNoLiveData": {},
+  "navLocationOff": "Location is off — the map won't follow you.",
+  "@navLocationOff": {},
+  "navLocationBlocked": "Location is blocked for Guidy. Turn it on in Settings to follow the route live.",
+  "@navLocationBlocked": {},
+  "navLocationLost": "Lost GPS signal. Your route is still below.",
+  "@navLocationLost": {},
+
+  "createAccount": "Create Account",
+  "@createAccount": {},
+
+  "joinGuidyToday": "Join Guidy today",
+  "@joinGuidyToday": {},
+
+  "nameLabel": "Full Name",
+  "@nameLabel": {},
+
+  "nameHint": "Enter your name",
+  "@nameHint": {},
+
+  "emailLabel": "Email",
+  "@emailLabel": {},
+
+  "emailHint": "Enter your email",
+  "@emailHint": {},
+
+  "passwordLabel": "Password",
+  "@passwordLabel": {},
+
+  "passwordHint": "Enter your password",
+  "@passwordHint": {},
+
+  "passwordCreateHint": "Create a password (min. 6 chars)",
+  "@passwordCreateHint": {},
+
+  "confirmPasswordLabel": "Confirm Password",
+  "@confirmPasswordLabel": {},
+
+  "confirmPasswordHint": "Confirm your password",
+  "@confirmPasswordHint": {},
+
+  "signIn": "Sign In",
+  "@signIn": {},
+
+  "signUp": "Sign Up",
+  "@signUp": {},
+
+  "noAccountPrompt": "Don't have an account? ",
+  "@noAccountPrompt": {},
+
+  "hasAccountPrompt": "Already have an account? ",
+  "@hasAccountPrompt": {},
+
+  "fillBothFields": "Please fill in both fields",
+  "@fillBothFields": {},
+
+  "fillAllFields": "Please fill in all fields",
+  "@fillAllFields": {},
+
+  "invalidEmail": "Please enter a valid email address",
+  "@invalidEmail": {},
+
+  "signInFailed": "Sign in failed",
+  "@signInFailed": {},
+
+  "signUpFailed": "Sign up failed",
+  "@signUpFailed": {},
+
+  "incorrectCredentials": "Incorrect email or password.",
+  "@incorrectCredentials": {},
+
+  "checkInternet": "Check your internet connection.",
+  "@checkInternet": {},
+
+  "passwordTooShort": "Password must be at least 6 characters",
+  "@passwordTooShort": {},
+
+  "passwordsDontMatch": "Passwords do not match",
+  "@passwordsDontMatch": {},
+
+  "emailAlreadyRegistered": "This email is already registered.",
+  "@emailAlreadyRegistered": {},
+
+  "languageSwitcherTitle": "Language",
+  "@languageSwitcherTitle": {},
+
+  "languageEnglish": "English",
+  "@languageEnglish": {},
+
+  "languageArabic": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+  "@languageArabic": {},
+
+  "calculatingDistance": "Calculating...",
+  "@calculatingDistance": {},
+
+  "youHaveArrived": "You have arrived!",
+  "@youHaveArrived": {},
+
+  "arrivingAt": "Arriving at {station}...",
+  "@arrivingAt": {
+    "placeholders": { "station": {"type": "String"} }
+  },
+
+  "distanceKmTo": "{distance} km to {station}",
+  "@distanceKmTo": {
+    "placeholders": {
+      "distance": {"type": "String"},
+      "station": {"type": "String"}
+    }
+  },
+
+  "distanceMTo": "{distance} m to {station}",
+  "@distanceMTo": {
+    "placeholders": {
+      "distance": {"type": "String"},
+      "station": {"type": "String"}
+    }
+  },
+
+  "stepOf": "Step {index} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "index": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "myCurrentLocation": "My Current Location",
+  "@myCurrentLocation": {},
+
+  "settingsTitle": "Settings",
+  "@settingsTitle": {},
+
+  "darkModeLabel": "Dark Mode",
+  "@darkModeLabel": {},
+
+  "darkModeSubtitle": "Overrides your device's system setting",
+  "@darkModeSubtitle": {},
+
+  "accountSectionLabel": "Account",
+  "@accountSectionLabel": {},
+
+  "preferencesSectionLabel": "Preferences",
+  "@preferencesSectionLabel": {},
+
+  "logOut": "Log Out",
+  "@logOut": {},
+
+  "quickDestinationsLabel": "Quick Destinations",
+  "@quickDestinationsLabel": {},
+
+  "adPlaceholderLabel": "Advertisement",
+  "@adPlaceholderLabel": {},
+
+  "navHome": "Home",
+  "@navHome": {},
+
+  "navSettings": "Settings",
+  "@navSettings": {},
+
+  "contactUsLabel": "Contact Us",
+  "@contactUsLabel": {},
+
+  "continueWithGoogle": "Continue with Google",
+  "@continueWithGoogle": {},
+
+  "continueWithFacebook": "Continue with Facebook",
+  "@continueWithFacebook": {},
+
+  "orDivider": "or",
+  "@orDivider": {},
+
+  "socialSignInFailed": "Couldn't sign in. Please try again.",
+  "@socialSignInFailed": {},
+
+  "onboardingTitle1": "Built for Cairo's real transit",
+  "@onboardingTitle1": {},
+  "onboardingBody1": "Metro, buses, and microbuses — including routes Google Maps doesn't cover.",
+  "@onboardingBody1": {},
+  "onboardingTitle2": "Real fares, not guesses",
+  "@onboardingTitle2": {},
+  "onboardingBody2": "Know what you'll pay before you go.",
+  "@onboardingBody2": {},
+  "onboardingTitle3": "Your data, your call",
+  "@onboardingTitle3": {},
+  "onboardingBody3": "We only use your location to find nearby stops and calculate routes for you.",
+  "@onboardingBody3": {},
+  "onboardingSkip": "Skip",
+  "@onboardingSkip": {},
+  "onboardingNext": "Next",
+  "@onboardingNext": {},
+  "onboardingGetStarted": "Get Started",
+  "@onboardingGetStarted": {},
+
+  "savedPlacesTitle": "Saved Places",
+  "@savedPlacesTitle": {},
+  "addPlaceButton": "Add a place",
+  "@addPlaceButton": {},
+  "noSavedPlacesYet": "No saved places yet. Tap below to add one.",
+  "@noSavedPlacesYet": {},
+  "deletePlaceConfirmTitle": "Remove this place?",
+  "@deletePlaceConfirmTitle": {},
+  "deletePlaceConfirmBody": "You can always add it again later.",
+  "@deletePlaceConfirmBody": {},
+  "placeNameHint": "Name (e.g. Gym, Mosque)",
+  "@placeNameHint": {},
+  "cancelButton": "Cancel",
+  "@cancelButton": {},
+  "removeButton": "Remove",
+  "@removeButton": {},
+
+  "noSearchResultsFound": "No places found. Try a different search.",
+  "@noSearchResultsFound": {},
+
+  "continueAsGuest": "Continue as Guest",
+  "@continueAsGuest": {},
+  "guestLabel": "Guest",
+  "@guestLabel": {},
+  "deleteAccountButton": "Delete Account",
+  "@deleteAccountButton": {},
+  "deleteAccountConfirmTitle": "Delete your account?",
+  "@deleteAccountConfirmTitle": {},
+  "deleteAccountConfirmBody": "This permanently deletes your account and can't be undone.",
+  "@deleteAccountConfirmBody": {},
+  "deleteButton": "Delete",
+  "@deleteButton": {},
+  "reauthRequiredTitle": "Please sign in again",
+  "@reauthRequiredTitle": {},
+  "reauthRequiredBody": "For your security, confirm it's you before we delete your account.",
+  "@reauthRequiredBody": {},
+  "confirmButton": "Confirm",
+  "@confirmButton": {},
+  "deleteAccountFailed": "Couldn't delete your account. Please try again.",
+  "@deleteAccountFailed": {},
+
+  "recentSearchesLabel": "Recent",
+  "@recentSearchesLabel": {},
+  "clearHistoryLabel": "Clear",
+  "@clearHistoryLabel": {},
+
+  "shareRouteButton": "Share this route",
+  "@shareRouteButton": {},
+  "shareRouteText": "{start} to {end} via Guidy: {duration} min, {price}",
+  "@shareRouteText": {
+    "placeholders": {
+      "start": {"type": "String"},
+      "end": {"type": "String"},
+      "duration": {"type": "String"},
+      "price": {"type": "String"}
+    }
+  },
+
+  "retryButton": "Retry",
+  "@retryButton": {},
+  "somethingWentWrongTitle": "Something went wrong",
+  "@somethingWentWrongTitle": {},
+
+  "rateGuidyLabel": "Rate Guidy",
+  "@rateGuidyLabel": {},
+
+  "privacyPolicyLabel": "Privacy Policy",
+  "@privacyPolicyLabel": {},
+
+  "supportSectionLabel": "Support",
+  "@supportSectionLabel": {},
+
+  "useCurrentLocationTooltip": "Use my current location",
+  "@useCurrentLocationTooltip": {},
+  "showPasswordTooltip": "Show password",
+  "@showPasswordTooltip": {},
+  "hidePasswordTooltip": "Hide password",
+  "@hidePasswordTooltip": {},
+  "closeMapTooltip": "Close",
+  "@closeMapTooltip": {},
+  "centerOnMyLocationTooltip": "Center on my location",
+  "@centerOnMyLocationTooltip": {},
+  "languageSelectorTooltip": "Change language",
+  "@languageSelectorTooltip": {},
+  "removePlaceTooltip": "Remove this place",
+  "@removePlaceTooltip": {},
+
+  "vehicleBus": "Bus",
+  "@vehicleBus": {},
+  "vehicleMinibus": "Minibus",
+  "@vehicleMinibus": {},
+  "vehicleMicrobus": "Microbus",
+  "@vehicleMicrobus": {},
+  "vehicleMetro": "Metro",
+  "@vehicleMetro": {},
+  "vehicleMonorail": "Monorail",
+  "@vehicleMonorail": {},
+  "vehicleLrt": "LRT",
+  "@vehicleLrt": {},
+  "vehicleTram": "Tram",
+  "@vehicleTram": {},
+  "vehicleAirportShuttle": "Airport Shuttle",
+  "@vehicleAirportShuttle": {},
+  "vehicleWalk": "Walk",
+  "@vehicleWalk": {},
+
+  "routeTierRecommended": "Recommended",
+  "@routeTierRecommended": {},
+  "routeTierFastest": "Fastest",
+  "@routeTierFastest": {},
+  "routeTierRegular": "Regular",
+  "@routeTierRegular": {},
+  "routeTierCheapest": "Cheapest",
+  "@routeTierCheapest": {},
+  "routeTierAlternative": "Alternative",
+  "@routeTierAlternative": {},
+  "routeTierWalk": "Walk",
+  "@routeTierWalk": {},
+
+  "crowdLow": "Low",
+  "@crowdLow": {},
+  "crowdMedium": "Medium",
+  "@crowdMedium": {},
+  "crowdHigh": "High",
+  "@crowdHigh": {},
+
+  "instrWalkToStationTitle": "Walk to Station",
+  "@instrWalkToStationTitle": {},
+  "instrWalkToStationSubtitle": "Walk {distance}m to {station}",
+  "@instrWalkToStationSubtitle": {
+    "placeholders": {"distance": {"type": "String"}, "station": {"type": "String"}}
+  },
+  "instrWalkToTransferTitle": "Walk to Transfer",
+  "@instrWalkToTransferTitle": {},
+  "instrWalkToTransferSubtitle": "Walk to the next stop near {station}",
+  "@instrWalkToTransferSubtitle": {
+    "placeholders": {"station": {"type": "String"}}
+  },
+  "instrContinueWalkTitle": "Walking",
+  "@instrContinueWalkTitle": {},
+  "instrContinueWalkSubtitle": "Continue on foot",
+  "@instrContinueWalkSubtitle": {},
+  "instrBoardTitleWithVehicle": "Board {vehicleType}",
+  "@instrBoardTitleWithVehicle": {
+    "placeholders": {"vehicleType": {"type": "String"}}
+  },
+  "instrBoardWithNumber": "{vehicleType} {routeNumber}",
+  "@instrBoardWithNumber": {
+    "placeholders": {"vehicleType": {"type": "String"}, "routeNumber": {"type": "String"}}
+  },
+  "instrBoardGeneral": "{vehicleType} towards {routeDescription}",
+  "@instrBoardGeneral": {
+    "placeholders": {"vehicleType": {"type": "String"}, "routeDescription": {"type": "String"}}
+  },
+  "instrTransferTitle": "Transfer",
+  "@instrTransferTitle": {},
+  "instrArriveTitle": "Arrive & Disembark",
+  "@instrArriveTitle": {},
+  "instrArriveSubtitle": "Get off at {station}",
+  "@instrArriveSubtitle": {
+    "placeholders": {"station": {"type": "String"}}
+  },
+  "instrWalkToDestinationTitle": "Walk to Destination",
+  "@instrWalkToDestinationTitle": {},
+  "instrWalkToDestinationSubtitle": "Walk {distance}m to your destination",
+  "@instrWalkToDestinationSubtitle": {
+    "placeholders": {"distance": {"type": "String"}}
+  },
+  "fareEstimateNote": "Fares are estimates and may vary",
+  "@fareEstimateNote": {},
+
+  "tripRecapTitle": "Trip Overview",
+  "@tripRecapTitle": {},
+  "tripStepsLabel": "Steps",
+  "@tripStepsLabel": {},
+  "fareTotalLabel": "Total Fare",
+  "@fareTotalLabel": {},
+  "startNavigationButton": "Start Navigation",
+  "@startNavigationButton": {},
+
+  "navLines": "Lines",
+  "@navLines": {},
+  "navMetro": "Metro",
+  "@navMetro": {},
+  "linesTitle": "Bus & Minibus Lines",
+  "@linesTitle": {},
+  "linesSearchHint": "Line number, or where it goes",
+  "@linesSearchHint": {},
+  "linesSearchPrompt": "Search a line number like 65, or a place like Maadi.",
+  "@linesSearchPrompt": {},
+  "linesNoResults": "No lines match that search.",
+  "@linesNoResults": {},
+  "linesTapHint": "Tap a line to see every stop it makes.",
+  "@linesTapHint": {},
+  "linesStopCount": "{count} stops",
+  "@linesStopCount": {"placeholders": {"count": {"type": "int"}}},
+  "linesEveryMinutes": "Every ~{minutes} min",
+  "@linesEveryMinutes": {"placeholders": {"minutes": {"type": "String"}}},
+  "linesDirectionTowards": "Towards {terminus}",
+  "@linesDirectionTowards": {"placeholders": {"terminus": {"type": "String"}}},
+  "linesStopsInOrder": "Stops in order",
+  "@linesStopsInOrder": {},
+  "linesFareLabel": "Fare per ride",
+  "@linesFareLabel": {},
+  "linesMetroFareNote": "Metro fare depends on how many stations you ride.",
+  "@linesMetroFareNote": {},
+  "linesFilterAll": "All",
+  "@linesFilterAll": {},
+  "linesLoadFailed": "Couldn't load lines right now.",
+  "@linesLoadFailed": {},
+  "linesViewList": "Stops",
+  "@linesViewList": {},
+  "linesViewMap": "Map",
+  "@linesViewMap": {},
+  "linesFitRoute": "Fit Route",
+  "@linesFitRoute": {},
+  "metroTitle": "Metro Planner",
+  "@metroTitle": {},
+  "metroSubtitle": "Metro only — no buses, no walking legs.",
+  "@metroSubtitle": {},
+  "metroFromLabel": "From",
+  "@metroFromLabel": {},
+  "metroToLabel": "To",
+  "@metroToLabel": {},
+  "metroPickStation": "Choose a station",
+  "@metroPickStation": {},
+  "metroPlanButton": "Show metro route",
+  "@metroPlanButton": {},
+  "metroSameStationError": "Pick two different stations.",
+  "@metroSameStationError": {},
+  "metroNoPathError": "We couldn't find a metro-only route between those two.",
+  "@metroNoPathError": {},
+  "metroSearchStationHint": "Search stations",
+  "@metroSearchStationHint": {},
+  "metroChangeAt": "Change at {station}",
+  "@metroChangeAt": {"placeholders": {"station": {"type": "String"}}},
+  "metroChangeTo": "Change to {line}",
+  "@metroChangeTo": {"placeholders": {"line": {"type": "String"}}},
+  "metroChangesCount": "{count} changes",
+  "@metroChangesCount": {"placeholders": {"count": {"type": "int"}}},
+  "metroNoChanges": "Direct — no changes",
+  "@metroNoChanges": {},
+  "metroInterchangeBadge": "Interchange",
+  "@metroInterchangeBadge": {},
+  "metroRideStops": "Ride {count} stops",
+  "@metroRideStops": {"placeholders": {"count": {"type": "int"}}},
+  "metroSwapTooltip": "Swap start and destination",
+  "@metroSwapTooltip": {},
+  "metroLinesServing": "Lines: {lines}",
+  "@metroLinesServing": {"placeholders": {"lines": {"type": "String"}}},
+  "metroStationsLoadFailed": "Couldn't load the station list.",
+  "@metroStationsLoadFailed": {},
+
+  "linesMicrobusFareNote": "Microbus fares depend on how far you ride.",
+  "@linesMicrobusFareNote": {},
+
+  "navOverviewTooltip": "Show the whole trip",
+  "@navOverviewTooltip": {},
+  "navRecenterTooltip": "Re-center on me",
+  "@navRecenterTooltip": {},
+
+  "tripRouteHeading": "{start} to {end}",
+  "@tripRouteHeading": {"placeholders": {"start": {"type": "String"}, "end": {"type": "String"}}},
+  "fareFree": "Free",
+  "@fareFree": {},
+  "pinnedLocation": "Pinned location",
+  "@pinnedLocation": {},
+  "serverUnreachable": "Could not reach the Guidy server. Check your connection and try again.",
+  "@serverUnreachable": {},
+
+  "errorOutsideCoverage": "That place is outside the area Guidy covers.",
+  "@errorOutsideCoverage": {},
+  "errorNoRouteFound": "We couldn't find a way to get there. It may be outside our coverage.",
+  "@errorNoRouteFound": {},
+  "errorNoServiceThisHour": "Nothing is running at this hour. Most routes here run about 06:00 to 23:00 — try again during service hours.",
+  "@errorNoServiceThisHour": {},
+
+  "linesDirectionTowardsFrom": "Towards {terminus}, from {origin}",
+  "@linesDirectionTowardsFrom": {"placeholders": {"terminus": {"type": "String"}, "origin": {"type": "String"}}},
+
+  "reportTooltip": "Report this route",
+  "@reportTooltip": {},
+  "reportEntryPoint": "Something wrong with this route?",
+  "@reportEntryPoint": {},
+  "reportTitle": "Report this route",
+  "@reportTitle": {},
+  "reportIntro": "Our route data comes from open sources, and riders know it better than we do. Tell us what's wrong and we'll fix it for everyone.",
+  "@reportIntro": {},
+  "reportWhichPart": "Which part is wrong?",
+  "@reportWhichPart": {},
+  "reportSelectAll": "Select all",
+  "@reportSelectAll": {},
+  "reportClearSelection": "Clear",
+  "@reportClearSelection": {},
+  "reportWholeRouteNote": "You've selected every step, so this goes in as a report about the whole route.",
+  "@reportWholeRouteNote": {},
+  "reportReasonLabel": "What's the problem?",
+  "@reportReasonLabel": {},
+  "reportReasonRouteDoesNotExist": "This route doesn't exist",
+  "@reportReasonRouteDoesNotExist": {},
+  "reportReasonWrongStop": "Wrong stop or station",
+  "@reportReasonWrongStop": {},
+  "reportReasonBadTiming": "Times are wrong",
+  "@reportReasonBadTiming": {},
+  "reportReasonWrongFare": "Fare is wrong",
+  "@reportReasonWrongFare": {},
+  "reportReasonBetterRoute": "I know a better way",
+  "@reportReasonBetterRoute": {},
+  "reportReasonOther": "Something else",
+  "@reportReasonOther": {},
+  "reportCommentLabel": "Tell us more",
+  "@reportCommentLabel": {},
+  "reportCommentHintGeneral": "Optional — anything that helps us check it.",
+  "@reportCommentHintGeneral": {},
+  "reportCommentHintBetterRoute": "Which route would you take instead?",
+  "@reportCommentHintBetterRoute": {},
+  "reportCommentRequired": "Please tell us a bit more so we can act on it.",
+  "@reportCommentRequired": {},
+  "reportSelectSomething": "Pick at least one step to report.",
+  "@reportSelectSomething": {},
+  "reportPickReason": "Pick what's wrong with it.",
+  "@reportPickReason": {},
+  "reportSubmit": "Send report",
+  "@reportSubmit": {},
+  "reportSent": "Thanks — your report was sent.",
+  "@reportSent": {},
+  "reportQueued": "Saved. We'll send it as soon as you're back online.",
+  "@reportQueued": {},
+  "reportFailed": "Couldn't send that report. Please try again.",
+  "@reportFailed": {},
+  "reportSignInRequired": "Sign in to send a report.",
+  "@reportSignInRequired": {},
+  "routeTierPartial": "Gets you close",
+  "@routeTierPartial": {},
+  "partialUncoveredNotice": "This doesn't reach your destination. The last {distance} isn't covered by any route we know yet.",
+  "@partialUncoveredNotice": {
+    "placeholders": {"distance": {"type": "String"}}
+  },
+  "partialLastCoveredStop": "Last stop we cover: {stop}",
+  "@partialLastCoveredStop": {
+    "placeholders": {"stop": {"type": "String"}}
+  },
+  "nearestHubsHint": "The closest places we do cover are {origin} near your start, and {destination} near your destination.",
+  "@nearestHubsHint": {
+    "placeholders": {"origin": {"type": "String"}, "destination": {"type": "String"}}
+  },
+  "reportMissingRouteButton": "Tell us what's missing",
+  "@reportMissingRouteButton": {},
+  "reportMissingRouteTitle": "Which route should be here?",
+  "@reportMissingRouteTitle": {},
+  "reportMissingRouteIntro": "Our data is incomplete for this trip. If you know a bus, minibus or microbus that makes it, tell us and we'll add it for everyone.",
+  "@reportMissingRouteIntro": {},
+  "reportMissingRouteHint": "e.g. minibus 37 from Kilo 4 & Half to Kafr Tohormos",
+  "@reportMissingRouteHint": {},
+  "excludeMetro": "Exclude Metro",
+  "@excludeMetro": {},
+  "onlyRouteDisclaimer": "This is currently the only known transit route serving this trip.",
+  "@onlyRouteDisclaimer": {},
+  "filterMinWalk": "Minimum Walk",
+  "@filterMinWalk": {},
+  "filterMinTransfers": "Fewest Transfers",
+  "@filterMinTransfers": {},
+  "railMapTitle": "Rail Network Map",
+  "@railMapTitle": {},
+  "shareTripTooltip": "Share Trip",
+  "@shareTripTooltip": {},
+  "navFitRouteTooltip": "Route Overview",
+  "@navFitRouteTooltip": {},
+  "navStopAlarmTooltip": "Stop Proximity Alert",
+  "@navStopAlarmTooltip": {},
+  "navStopAlarmOn": "Stop alert active",
+  "@navStopAlarmOn": {},
+  "navStopAlarmOff": "Stop alert disabled",
+  "@navStopAlarmOff": {},
+  "navStopAlarmAlert": "Prepare to get off! Next stop: {station}",
+  "@navStopAlarmAlert": {
+    "placeholders": {"station": {"type": "String"}}
+  },
+  "metroTicketTitle": "Metro Ticket Counter",
+  "@metroTicketTitle": {},
+  "navStopAlarmActiveToast": "Stop alert: Active (vibrates 400m before your stop)",
+  "@navStopAlarmActiveToast": {},
+  "navStopAlarmDisabledToast": "Stop alert: Disabled",
+  "@navStopAlarmDisabledToast": {},
+  "navRecenterFinding": "Finding your location...",
+  "@navRecenterFinding": {},
+  "navRecenterSuccess": "Centered on your location",
+  "@navRecenterSuccess": {},
+  "navRecenterFallback": "GPS unavailable, centered on trip start",
+  "@navRecenterFallback": {},
+  "navOverviewToast": "Full route overview",
+  "@navOverviewToast": {},
+  "savedTripsTitle": "Saved Commutes",
+  "@savedTripsTitle": {},
+  "savedTripsEmpty": "No saved commutes yet. Save frequent trips for instant offline navigation.",
+  "@savedTripsEmpty": {},
+  "saveTripTooltip": "Save Route",
+  "@saveTripTooltip": {},
+  "tripSavedToast": "Saved to your offline commutes",
+  "@tripSavedToast": {},
+  "tripRemovedToast": "Removed from saved commutes",
+  "@tripRemovedToast": {},
+  "offlineModeNotice": "Offline Mode — displaying saved route",
+  "@offlineModeNotice": {},
+  "offlineBadge": "Offline",
+  "@offlineBadge": {},
+  "savedTripsHomeSubtitle": "Daily commutes with 1 tap, zero data required",
+  "@savedTripsHomeSubtitle": {},
+  "viewModeList": "Route List",
+  "@viewModeList": {},
+  "viewModeCompare": "Quick Compare",
+  "@viewModeCompare": {},
+  "compareFastest": "Fastest",
+  "@compareFastest": {},
+  "compareCheapest": "Cheapest",
+  "@compareCheapest": {},
+  "compareLeastWalk": "Least Walk",
+  "@compareLeastWalk": {},
+  "compareDirect": "Direct",
+  "@compareDirect": {},
+  "directRouteNoTransfers": "Direct transit",
+  "@directRouteNoTransfers": {},
+  "transfersCountBadge": "{count} transfers",
+  "@transfersCountBadge": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+  "walkMetersBadge": "{meters} m walk",
+  "@walkMetersBadge": {
+    "placeholders": {"meters": {"type": "String"}}
+  },
+  "quickReportTitle": "Report Commute Conditions",
+  "@quickReportTitle": {},
+  "quickReportSubtitle": "Help fellow commuters know live transit status",
+  "@quickReportSubtitle": {},
+  "reportCategoryTraffic": "Traffic standstill / Severe jam",
+  "@reportCategoryTraffic": {},
+  "reportCategoryMissing": "Bus delayed or missing",
+  "@reportCategoryMissing": {},
+  "reportCategoryCrowd": "Severe vehicle or stop crowding",
+  "@reportCategoryCrowd": {},
+  "reportCategoryFare": "Microbus driver / collector increased fare",
+  "@reportCategoryFare": {},
+  "reportCategoryDiversion": "Route diverted / Roadblock",
+  "@reportCategoryDiversion": {},
+  "reportThanksToast": "Thank you — your report helps fellow commuters!",
+  "@reportThanksToast": {},
+  "reportNotePlaceholder": "Any extra details? (Optional)",
+  "@reportNotePlaceholder": {},
+  "budgetTitle": "Commute Cost Calculator",
+  "@budgetTitle": {},
+  "budgetSubtitle": "Track monthly transit expenses and save with Metro subscriptions",
+  "@budgetSubtitle": {},
+  "dailyCostLabel": "Daily round-trip cost",
+  "@dailyCostLabel": {},
+  "commuteDaysPerWeek": "Commute days per week",
+  "@commuteDaysPerWeek": {},
+  "commuteDaysCount": "{days} days ({total} trips per month)",
+  "@commuteDaysCount": {
+    "placeholders": {
+      "days": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "monthlyCostLabel": "Total monthly transit cost",
+  "@monthlyCostLabel": {},
+  "metroSubscriptionSavingsTitle": "Save with Metro Subscriptions",
+  "@metroSubscriptionSavingsTitle": {},
+  "metroSubscriptionSavingsSubtitle": "A 1-stage monthly subscription saves {amount} EGP every month!",
+  "@metroSubscriptionSavingsSubtitle": {
+    "placeholders": {"amount": {"type": "String"}}
+  },
+  "subTierPublic": "General Public",
+  "@subTierPublic": {},
+  "subTierStudents": "Students (90% discount)",
+  "@subTierStudents": {},
+  "subTierElderly": "Senior Citizens",
+  "@subTierElderly": {},
+  "subCostPerMonth": "{cost} EGP / month",
+  "@subCostPerMonth": {
+    "placeholders": {"cost": {"type": "String"}}
+  },
+  "monthlySavings": "Save {amount} EGP / mo",
+  "@monthlySavings": {
+    "placeholders": {"amount": {"type": "String"}}
+  },
+  "metroOfficesTitle": "Metro Subscription Offices",
+  "@metroOfficesTitle": {},
+  "metroOfficesList": "Attaba, Al-Shohadaa, Adly Mansour, Sadat, Cairo University",
+  "@metroOfficesList": {},
+  "walkManeuverStraight": "Continue straight",
+  "@walkManeuverStraight": {},
+  "walkManeuverRight": "Turn right",
+  "@walkManeuverRight": {},
+  "walkManeuverLeft": "Turn left",
+  "@walkManeuverLeft": {},
+  "walkManeuverUTurn": "Make a U-turn",
+  "@walkManeuverUTurn": {},
+  "walkInDistance": "In {distance} {action}",
+  "@walkInDistance": {
+    "placeholders": {
+      "distance": {"type": "String"},
+      "action": {"type": "String"}
+    }
+  },
+  "walkApproachingBoarding": "Approaching boarding stop ({station})",
+  "@walkApproachingBoarding": {
+    "placeholders": {
+      "station": {"type": "String"}
+    }
+  },
+  "walkAtDestination": "You have arrived at your destination",
+  "@walkAtDestination": {},
+  "metroNetworkMapTitle": "Cairo Rail & Metro Network",
+  "@metroNetworkMapTitle": {},
+  "metroNetworkMapButton": "Network Map",
+  "@metroNetworkMapButton": {},
+  "schematicDiagramTab": "Schematic Map",
+  "@schematicDiagramTab": {},
+  "stationDirectoryTab": "Station Directory",
+  "@stationDirectoryTab": {},
+  "interchangeTag": "Interchange",
+  "@interchangeTag": {},
+  "navHistory": "Trips",
+  "@navHistory": {},
+  "historyTitle": "Trip History & Savings",
+  "@historyTitle": {},
+  "historySubtitle": "Your commute tracking & savings",
+  "@historySubtitle": {},
+  "totalMoneySaved": "Money Saved",
+  "@totalMoneySaved": {},
+  "totalTimeSaved": "Time Saved",
+  "@totalTimeSaved": {},
+  "totalTripsCount": "Trips Taken",
+  "@totalTripsCount": {},
+  "co2Prevented": "CO₂ Avoided",
+  "@co2Prevented": {},
+  "savingsComparedToTaxi": "vs taxis & ride-hails",
+  "@savingsComparedToTaxi": {},
+  "timeSavedBypassing": "bypassing road traffic",
+  "@timeSavedBypassing": {},
+  "emptyHistoryTitle": "No Trips Logged Yet",
+  "@emptyHistoryTitle": {},
+  "emptyHistorySubtitle": "Start navigating or plan a trip with Guidy to see your cumulative money, time, and carbon savings!",
+  "@emptyHistorySubtitle": {},
+  "planTripButton": "Plan a Trip",
+  "@planTripButton": {},
+  "loadDemoTripsButton": "View Sample Savings",
+  "@loadDemoTripsButton": {},
+  "repeatTripAction": "Take Trip Again",
+  "@repeatTripAction": {},
+  "clearHistoryConfirm": "Clear all trip history?",
+  "@clearHistoryConfirm": {},
+  "clearHistoryAction": "Clear History",
+  "@clearHistoryAction": {},
+  "clearHistorySuccess": "Trip history cleared",
+  "@clearHistorySuccess": {},
+  "tripDeletedToast": "Trip removed from history",
+  "@tripDeletedToast": {},
+  "savingsCalculationInfoTitle": "How Savings are Calculated",
+  "@savingsCalculationInfoTitle": {},
+  "savingsCalculationInfo": "Savings are calculated based on your personal route choice: when you choose the Fastest route, we calculate the minutes you saved compared to slower alternatives, and when you choose the Cheapest route, we calculate the money you saved compared to more expensive alternatives.",
+  "@savingsCalculationInfo": {},
+  "filterAll": "All",
+  "@filterAll": {},
+  "filterThisWeek": "This Week",
+  "@filterThisWeek": {},
+  "filterThisMonth": "This Month",
+  "@filterThisMonth": {},
+  "filterMetro": "Metro",
+  "@filterMetro": {},
+  "filterBus": "Bus",
+  "@filterBus": {},
+  "filterMicrobus": "Microbus",
+  "@filterMicrobus": {},
+  "minsSavedShort": "{mins}m saved",
+  "@minsSavedShort": {
+    "placeholders": {
+      "mins": {"type": "String"}
+    }
+  },
+  "hoursMinsSavedShort": "{hours}h {mins}m saved",
+  "@hoursMinsSavedShort": {
+    "placeholders": {
+      "hours": {"type": "String"},
+      "mins": {"type": "String"}
+    }
+  },
+  "moneySavedShort": "{amount} EGP saved",
+  "@moneySavedShort": {
+    "placeholders": {
+      "amount": {"type": "String"}
+    }
+  },
+  "sampleTripsLoadedToast": "Sample Cairo commutes loaded!",
+  "@sampleTripsLoadedToast": {},
+  "reportLineTitle": "Report Line Issue",
+  "@reportLineTitle": {},
+  "reportMetroTitle": "Report Metro Issue",
+  "@reportMetroTitle": {},
+  "reportReasonLineDoesNotExist": "Line does not exist or discontinued",
+  "@reportReasonLineDoesNotExist": {},
+  "reportReasonLineWrongPath": "Route diversion or different streets",
+  "@reportReasonLineWrongPath": {},
+  "reportReasonLineWrongStop": "Wrong stop sequence or missing stop",
+  "@reportReasonLineWrongStop": {},
+  "reportReasonLineWrongFare": "Incorrect fare",
+  "@reportReasonLineWrongFare": {},
+  "reportReasonLineBadTiming": "Inaccurate schedule or frequency",
+  "@reportReasonLineBadTiming": {},
+  "reportReasonMetroStationClosed": "Station closed or out of service",
+  "@reportReasonMetroStationClosed": {},
+  "reportReasonMetroWrongTransfer": "Incorrect transfer instruction",
+  "@reportReasonMetroWrongTransfer": {},
+  "reportReasonMetroWrongFare": "Incorrect ticket fare",
+  "@reportReasonMetroWrongFare": {},
+  "reportReasonMetroDelay": "Significant delay or disruption",
+  "@reportReasonMetroDelay": {},
+  "reportPickStopOptional": "Select affected stop (optional)",
+  "@reportPickStopOptional": {},
+  "reportAllStopsOption": "General line issue (entire route)",
+  "@reportAllStopsOption": {},
+  "reportActionSubmit": "Submit Report",
+  "@reportActionSubmit": {},
+  "reportActionCancel": "Cancel",
+  "@reportActionCancel": {},
+  "reportLineSuccessToast": "Thank you! Your report has been submitted to improve the network.",
+  "@reportLineSuccessToast": {},
+  "reportCommentHint": "Add details (e.g. actual fare, detour street, etc.)",
+  "@reportCommentHint": {},
+  "reportAnIssueWithThisLine": "Report an issue with this line",
+  "@reportAnIssueWithThisLine": {},
+  "reportAnIssueWithMetro": "Report an issue with this metro route",
+  "@reportAnIssueWithMetro": {},
+  "reportCategoryOther": "Other issue",
+  "@reportCategoryOther": {},
+  "reportReasonPrompt": "What is the problem?",
+  "@reportReasonPrompt": {},
+  "recentTripsTitle": "Recent Trips",
+  "@recentTripsTitle": {},
+  "recentTripsSubtitle": "Trips you've taken, their cost and duration",
+  "@recentTripsSubtitle": {},
+  "noRecentTripsYet": "No trips taken yet. Take a ride and it will appear here!",
+  "@noRecentTripsYet": {},
+  "customizeRouteCardTitle": "Customize Your Route",
+  "@customizeRouteCardTitle": {},
+  "customizeRouteCardSubtitle": "Choose the vehicle you prefer on this route",
+  "@customizeRouteCardSubtitle": {},
+  "customizeSelectVehiclePrompt": "Available Vehicles",
+  "@customizeSelectVehiclePrompt": {},
+  "customizeEstimatedDuration": "Est. Duration",
+  "@customizeEstimatedDuration": {},
+  "customizeEstimatedFare": "Est. Fare",
+  "@customizeEstimatedFare": {},
+  "customizeViewRouteAction": "View This Route",
+  "@customizeViewRouteAction": {},
+  "moneySavedPill": "Saved {amount} EGP",
+  "@moneySavedPill": {
+    "placeholders": {"amount": {"type": "String"}}
+  },
+  "timeSavedPill": "Saved {minutes} min",
+  "@timeSavedPill": {
+    "placeholders": {"minutes": {"type": "String"}}
+  },
+  "tripDetailFarePaid": "Fare Paid",
+  "@tripDetailFarePaid": {},
+  "tripDetailVsTaxi": "vs Taxi / Uber",
+  "@tripDetailVsTaxi": {},
+  "tripDetailVsTraffic": "vs Traffic",
+  "@tripDetailVsTraffic": {},
+  "tripDetailOpenRecap": "View Trip Details",
+  "@tripDetailOpenRecap": {},
+  "budgetScreenHeader": "Transit Budget & Metro Pass Savings",
+  "@budgetScreenHeader": {},
+  "budgetHowItWorksTitle": "How this Calculator Works",
+  "@budgetHowItWorksTitle": {},
+  "budgetHowItWorksBody": "Buying single paper tickets every day adds up quickly! A monthly Cairo Metro smart card pass offers unlimited rides for a fixed discounted rate (up to 90% off for students). Set your routine to see your net savings.",
+  "@budgetHowItWorksBody": {},
+  "budgetCommuterCategory": "Commuter Category",
+  "@budgetCommuterCategory": {},
+  "budgetRoutineTrips": "{trips} trips/month (2 trips/day)",
+  "@budgetRoutineTrips": {
+    "placeholders": {"trips": {"type": "String"}}
+  },
+  "budgetStageHeader": "Metro Stage / Trip Distance",
+  "@budgetStageHeader": {},
+  "budgetSingleTicketsMonthly": "Monthly Out-of-Pocket (Single Tickets)",
+  "@budgetSingleTicketsMonthly": {},
+  "historySavedTimeExplanation": "Chose Fastest & saved {minutes} min",
+  "@historySavedTimeExplanation": {
+    "placeholders": {"minutes": {"type": "String"}}
+  },
+  "historySavedMoneyExplanation": "Chose Cheapest & saved {amount} EGP",
+  "@historySavedMoneyExplanation": {
+    "placeholders": {"amount": {"type": "String"}}
+  },
+  "historyCustomizedChoice": "Customized route chosen",
+  "@historyCustomizedChoice": {},
+  "chooseOnMap": "Choose on Map",
+  "@chooseOnMap": {},
+  "confirmLocation": "Confirm Location",
+  "@confirmLocation": {},
+  "pinDropped": "Pinned Location",
+  "@pinDropped": {}
+}
+

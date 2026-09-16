@@ -1,0 +1,517 @@
+{
+  "@@locale": "ar",
+
+  "appTagline": "رفيقك في مواصلات مصر",
+
+  "goodMorning": "صباح الخير",
+  "goodMorningUser": "صباح الخير يا {name}",
+
+  "goodAfternoon": "نهارك سعيد",
+  "goodAfternoonUser": "نهارك سعيد يا {name}",
+
+  "goodEvening": "مساء الخير",
+  "goodEveningUser": "مساء الخير يا {name}",
+
+  "goodNight": "مساء الخير",
+  "goodNightUser": "مساء الخير يا {name}",
+
+  "whereTo": "رايح فين؟",
+
+  "quickAccessHome": "البيت",
+
+  "quickAccessWork": "الشغل",
+
+  "quickAccessSaved": "محفوظ",
+
+  "routingTo": "بنوصلك لـ {name}...",
+
+  "gpsRequiredToRoute": "لازم تشغل الـ GPS عشان نقدر نوصلك.",
+
+  "resettingLocation": "بنغيّر مكان {key}...",
+
+  "locationUnavailable": "معرفناش نجيب مكانك. اتأكد إن الـ GPS شغال.",
+
+  "setLocationTitle": "حدد مكان {key}",
+
+  "locationSavedAs": "اتحفظ {key} باسم {name}",
+
+  "searchOrTapMap": "دوّر أو دوس على الخريطة...",
+
+  "saveAsKey": "احفظ كـ {key}",
+
+  "pickupLocation": "منين؟",
+
+  "gpsFetchFailed": "معرفناش نجيب موقعك بالـ GPS.",
+
+  "findRoutes": "دوّر على مواصلة",
+
+  "routeOptionsTitle": "خيارات الرحلة",
+
+  "routeCalculationFailed": "معرفناش نحسب الطريق.",
+
+  "errorPrefix": "في مشكلة: {message}",
+
+  "availableRoutes": "المواصلات المتاحة",
+
+  "statDuration": "المدة",
+
+  "statFare": "السعر",
+
+  "statCrowds": "الزحمة",
+
+  "statDistance": "المسافة",
+
+  "routeTimeBreakdown": "{riding} دقيقة ركوب · حوالي {wait} دقيقة انتظار",
+  "stepWaitHint": "استنى حوالي {wait} دقيقة",
+
+  "durationMinutes": "{minutes} دقيقة",
+  "distanceKm": "{km} كم",
+  "fareEgp": "{amount} جنيه",
+  "alsoWorksLabel": "كمان ينفع: {routes}",
+  "routeEveryMinutes": "{route} كل {minutes} دقيقة تقريبًا",
+  "listSeparator": "، ",
+
+  "navNowLabel": "دلوقتي",
+  "navOtherVehicles": "مواصلات تانية",
+  "navAlsoServing": "مواصلات تانية على نفس الخط",
+  "navYourRoute": "خطك",
+  "navMinutesAway": "جاي بعد {minutes} دقيقة تقريبًا",
+  "navArrivingNow": "جاي دلوقتي",
+  "navEveryMinutes": "كل {minutes} دقيقة تقريبًا",
+  "navNoLiveData": "مفيش بيانات مباشرة لسه",
+  "navLocationOff": "الموقع مقفول — الخريطة مش هتتحرك معاك.",
+  "navLocationBlocked": "الموقع محجوب لجايدي. افتحه من الإعدادات عشان تتابع الخط مباشرة.",
+  "navLocationLost": "الإشارة ضاعت. خطواتك لسه تحت.",
+
+  "createAccount": "اعمل حساب",
+
+  "joinGuidyToday": "انضم لـ Guidy دلوقتي",
+  "nameLabel": "الاسم بالكامل",
+  "nameHint": "اكتب اسمك",
+
+  "emailLabel": "الإيميل",
+
+  "emailHint": "اكتب إيميلك",
+
+  "passwordLabel": "الباسورد",
+
+  "passwordHint": "اكتب الباسورد",
+
+  "passwordCreateHint": "اعمل باسورد (6 حروف على الأقل)",
+
+  "confirmPasswordLabel": "تأكيد الباسورد",
+
+  "confirmPasswordHint": "أكد الباسورد",
+
+  "signIn": "دخول",
+
+  "signUp": "تسجيل",
+
+  "noAccountPrompt": "مش عندك حساب؟ ",
+
+  "hasAccountPrompt": "عندك حساب بالفعل؟ ",
+
+  "fillBothFields": "لازم تملى الخانتين",
+
+  "fillAllFields": "لازم تملى كل الخانات",
+
+  "invalidEmail": "اكتب إيميل صحيح",
+
+  "signInFailed": "الدخول فشل",
+
+  "signUpFailed": "التسجيل فشل",
+
+  "incorrectCredentials": "الإيميل أو الباسورد غلط.",
+
+  "checkInternet": "اتأكد من النت عندك.",
+
+  "passwordTooShort": "الباسورد لازم يكون 6 حروف على الأقل",
+
+  "passwordsDontMatch": "الباسوردين مش زي بعض",
+
+  "emailAlreadyRegistered": "الإيميل ده متسجل قبل كده.",
+
+  "languageSwitcherTitle": "اللغة",
+
+  "languageEnglish": "English",
+
+  "languageArabic": "العربية",
+
+  "calculatingDistance": "بنحسب المسافة...",
+
+  "youHaveArrived": "وصلت!",
+
+  "arrivingAt": "واصل عند {station}...",
+
+  "distanceKmTo": "{distance} كم لحد {station}",
+
+  "distanceMTo": "{distance} متر لحد {station}",
+
+  "stepOf": "خطوة {index} من {total}",
+
+  "myCurrentLocation": "موقعي الحالي",
+
+  "settingsTitle": "الإعدادات",
+
+  "darkModeLabel": "الوضع الليلي",
+
+  "darkModeSubtitle": "بيغيّر وضع التطبيق مهما كان إعداد موبايلك",
+
+  "accountSectionLabel": "الحساب",
+
+  "preferencesSectionLabel": "التفضيلات",
+
+  "logOut": "تسجيل الخروج",
+
+  "quickDestinationsLabel": "وجهات سريعة",
+
+  "adPlaceholderLabel": "إعلان",
+
+  "navHome": "الرئيسية",
+
+  "navSettings": "الإعدادات",
+
+  "contactUsLabel": "تواصل معانا",
+
+  "continueWithGoogle": "الدخول بحساب Google",
+
+  "continueWithFacebook": "الدخول بحساب Facebook",
+
+  "orDivider": "أو",
+
+  "socialSignInFailed": "معرفناش نسجل دخولك. جرب تاني.",
+
+  "onboardingTitle1": "اتعمل خصيصي لمواصلات القاهرة الحقيقية",
+  "onboardingBody1": "مترو، أتوبيسات، وميكروباصات — حتى الخطوط اللي مش موجودة في Google Maps.",
+  "onboardingTitle2": "أسعار حقيقية مش تخمين",
+  "onboardingBody2": "اعرف هتدفع كام قبل ما تتحرك.",
+  "onboardingTitle3": "بياناتك، قرارك",
+  "onboardingBody3": "بنستخدم موقعك بس عشان نلاقي أقرب محطة ونحسبلك الطريق.",
+  "onboardingSkip": "تخطي",
+  "onboardingNext": "التالي",
+  "onboardingGetStarted": "يلا نبدأ",
+
+  "savedPlacesTitle": "الأماكن المحفوظة",
+  "addPlaceButton": "ضيف مكان",
+  "noSavedPlacesYet": "لسه مفيش أماكن محفوظة. دوس تحت عشان تضيف واحد.",
+  "deletePlaceConfirmTitle": "تشيل المكان ده؟",
+  "deletePlaceConfirmBody": "تقدر تضيفه تاني في أي وقت.",
+  "placeNameHint": "الاسم (زي: الجيم، المسجد)",
+  "cancelButton": "إلغاء",
+  "removeButton": "شيل",
+  "noSearchResultsFound": "معلقناش على حاجة. جرب تدور بطريقة تانية.",
+  "continueAsGuest": "كمل كضيف",
+  "guestLabel": "ضيف",
+  "deleteAccountButton": "احذف الحساب",
+  "deleteAccountConfirmTitle": "متأكد إنك عايز تحذف حسابك؟",
+  "deleteAccountConfirmBody": "الخطوة دي نهائية ومش هينفع ترجعها.",
+  "deleteButton": "احذف",
+  "reauthRequiredTitle": "سجل دخولك تاني",
+  "reauthRequiredBody": "علشان أمانك، أكد إنك إنت قبل ما نحذف حسابك.",
+  "confirmButton": "تأكيد",
+  "deleteAccountFailed": "معرفناش نحذف حسابك. جرب تاني.",
+
+  "recentSearchesLabel": "الأخيرة",
+  "clearHistoryLabel": "امسح",
+
+  "shareRouteButton": "شارك الطريق ده",
+  "shareRouteText": "{start} لـ {end} عن طريق Guidy: {duration} دقيقة، {price}",
+
+  "retryButton": "حاول تاني",
+  "somethingWentWrongTitle": "حصلت مشكلة",
+
+  "rateGuidyLabel": "قيّم Guidy",
+
+  "privacyPolicyLabel": "سياسة الخصوصية",
+
+  "supportSectionLabel": "الدعم",
+
+  "useCurrentLocationTooltip": "استخدم موقعي الحالي",
+  "showPasswordTooltip": "اظهر الباسورد",
+  "hidePasswordTooltip": "اخفي الباسورد",
+  "closeMapTooltip": "قفل",
+  "centerOnMyLocationTooltip": "روح لموقعي",
+  "languageSelectorTooltip": "غيّر اللغة",
+  "removePlaceTooltip": "شيل المكان ده",
+
+  "vehicleBus": "أتوبيس",
+  "vehicleMinibus": "ميني باص",
+  "vehicleMicrobus": "ميكروباص",
+  "vehicleMetro": "المترو",
+  "vehicleMonorail": "المونوريل",
+  "vehicleLrt": "القطار الكهربائي الخفيف",
+  "vehicleTram": "الترام",
+  "vehicleAirportShuttle": "مكوك المطار",
+  "vehicleWalk": "مشي",
+
+  "routeTierRecommended": "الموصى به",
+  "routeTierFastest": "الأسرع",
+  "routeTierRegular": "عادي",
+  "routeTierCheapest": "الأرخص",
+  "routeTierAlternative": "سكة تانية",
+  "routeTierWalk": "مشي",
+
+  "crowdLow": "قليلة",
+  "crowdMedium": "متوسطة",
+  "crowdHigh": "كتير",
+
+  "instrWalkToStationTitle": "امشي للمحطة",
+  "instrWalkToStationSubtitle": "امشي {distance} متر لحد {station}",
+  "instrWalkToTransferTitle": "امشي لمحطة التغيير",
+  "instrWalkToTransferSubtitle": "امشي للمحطة اللي جاية قرب {station}",
+  "instrContinueWalkTitle": "بتمشي",
+  "instrContinueWalkSubtitle": "كمل مشي",
+  "instrBoardTitleWithVehicle": "اركب {vehicleType}",
+  "instrBoardWithNumber": "{vehicleType} رقم {routeNumber}",
+  "instrBoardGeneral": "{vehicleType} رايح {routeDescription}",
+  "instrTransferTitle": "غيّر مواصلة",
+  "instrArriveTitle": "وصلت، انزل",
+  "instrArriveSubtitle": "انزل عند {station}",
+  "instrWalkToDestinationTitle": "امشي لوجهتك",
+  "instrWalkToDestinationSubtitle": "امشي {distance} متر لحد وجهتك",
+  "fareEstimateNote": "الأسعار تقريبية وممكن تختلف",
+
+  "tripRecapTitle": "نظرة على الرحلة",
+  "tripStepsLabel": "الخطوات",
+  "fareTotalLabel": "إجمالي السعر",
+  "startNavigationButton": "ابدأ الرحلة",
+
+  "navLines": "الخطوط",
+  "navMetro": "المترو",
+  "linesTitle": "خطوط الأتوبيس والميكروباص",
+  "linesSearchHint": "رقم الخط، أو المنطقة اللي بيعدي منها",
+  "linesSearchPrompt": "ابحث برقم الخط زي 65، أو باسم مكان زي المعادي.",
+  "linesNoResults": "مفيش خطوط مطابقة للبحث.",
+  "linesTapHint": "دوس على أي خط تشوف كل محطاته.",
+  "linesStopCount": "{count} محطة",
+  "linesEveryMinutes": "كل ~{minutes} دقيقة",
+  "linesDirectionTowards": "باتجاه {terminus}",
+  "linesStopsInOrder": "المحطات بالترتيب",
+  "linesFareLabel": "سعر الركوبة",
+  "linesMetroFareNote": "تذكرة المترو بتتحسب على عدد المحطات اللي هتركبها.",
+  "linesFilterAll": "الكل",
+  "linesLoadFailed": "مش قادرين نحمّل الخطوط دلوقتي.",
+  "linesViewList": "المحطات",
+  "linesViewMap": "الخريطة",
+  "linesFitRoute": "ضبط المسار",
+  "metroTitle": "مخطط المترو",
+  "metroSubtitle": "مترو بس — من غير أتوبيسات ولا مشي.",
+  "metroFromLabel": "من",
+  "metroToLabel": "إلى",
+  "metroPickStation": "اختر محطة",
+  "metroPlanButton": "اعرض خط المترو",
+  "metroSameStationError": "اختر محطتين مختلفتين.",
+  "metroNoPathError": "مفيش طريق بالمترو لوحده بين المحطتين دول.",
+  "metroSearchStationHint": "ابحث عن محطة",
+  "metroChangeAt": "غيّر عند {station}",
+  "metroChangeTo": "غيّر لخط {line}",
+  "metroChangesCount": "{count} تغيير",
+  "metroNoChanges": "مباشر — من غير تغيير",
+  "metroInterchangeBadge": "محطة تبديل",
+  "metroRideStops": "اركب {count} محطة",
+  "metroSwapTooltip": "بدّل البداية والوجهة",
+  "metroLinesServing": "الخطوط: {lines}",
+  "metroStationsLoadFailed": "مش قادرين نحمّل قائمة المحطات.",
+
+  "linesMicrobusFareNote": "أجرة الميكروباص بتعتمد على المسافة اللي هتركبها.",
+
+  "navOverviewTooltip": "اعرض الرحلة كلها",
+  "navRecenterTooltip": "رجّعني لمكاني",
+
+  "tripRouteHeading": "من {start} إلى {end}",
+  "fareFree": "مجاناً",
+  "pinnedLocation": "موقع محدد على الخريطة",
+  "serverUnreachable": "مش قادرين نوصل لسيرفر Guidy. اطمن على الإنترنت وجرب تاني.",
+
+  "errorOutsideCoverage": "المكان ده بره المنطقة اللي Guidy بيغطيها.",
+  "errorNoRouteFound": "مش لاقيين طريق للمكان ده. يمكن يكون بره تغطيتنا.",
+  "errorNoServiceThisHour": "مفيش مواصلات شغالة في الوقت ده. أغلب الخطوط بتشتغل من حوالي ٦ الصبح لـ١١ بالليل — جرب تاني في المواعيد دي.",
+
+  "linesDirectionTowardsFrom": "باتجاه {terminus}، من {origin}",
+
+  "reportTooltip": "بلّغ عن الطريق ده",
+  "reportEntryPoint": "في حاجة غلط في الطريق ده؟",
+  "reportTitle": "بلّغ عن الطريق ده",
+  "reportIntro": "بيانات الخطوط عندنا جاية من مصادر مفتوحة، وانت عارف الشارع أحسن مننا. قولنا إيه الغلط وإحنا هنظبطه للكل.",
+  "reportWhichPart": "أنهي جزء فيه مشكلة؟",
+  "reportSelectAll": "اختار الكل",
+  "reportClearSelection": "امسح الاختيار",
+  "reportWholeRouteNote": "انت اخترت كل الخطوات، يعني البلاغ هيتبعت على الطريق كله.",
+  "reportReasonLabel": "المشكلة إيه؟",
+  "reportReasonRouteDoesNotExist": "الخط ده مش موجود",
+  "reportReasonWrongStop": "الموقف أو المحطة غلط",
+  "reportReasonBadTiming": "المواعيد غلط",
+  "reportReasonWrongFare": "الأجرة غلط",
+  "reportReasonBetterRoute": "أنا عارف طريق أحسن",
+  "reportReasonOther": "حاجة تانية",
+  "reportCommentLabel": "قولنا أكتر",
+  "reportCommentHintGeneral": "اختياري — أي حاجة تساعدنا نراجع.",
+  "reportCommentHintBetterRoute": "هتروح إزاي بدل كده؟",
+  "reportCommentRequired": "اكتبلنا شوية تفاصيل عشان نقدر نتصرف.",
+  "reportSelectSomething": "اختار خطوة واحدة على الأقل.",
+  "reportPickReason": "اختار المشكلة إيه.",
+  "reportSubmit": "ابعت البلاغ",
+  "reportSent": "شكراً — بلاغك وصلنا.",
+  "reportQueued": "حفظناه. هنبعته أول ما النت يرجع.",
+  "reportFailed": "مش قادرين نبعت البلاغ. جرب تاني.",
+  "reportSignInRequired": "سجّل دخولك عشان تبعت بلاغ.",
+  "routeTierPartial": "يقرّبك من وجهتك",
+  "partialUncoveredNotice": "ده مش بيوصل لوجهتك. آخر {distance} مفيش خط نعرفه بيغطّيها لحد دلوقتي.",
+  "partialLastCoveredStop": "آخر محطة بنغطّيها: {stop}",
+  "nearestHubsHint": "أقرب الأماكن اللي بنغطّيها: {origin} جنب نقطة البداية، و{destination} جنب وجهتك.",
+  "reportMissingRouteButton": "قوللنا الناقص إيه",
+  "reportMissingRouteTitle": "أنهي خط المفروض يكون هنا؟",
+  "reportMissingRouteIntro": "بياناتنا ناقصة في الرحلة دي. لو تعرف أتوبيس أو ميني باص أو ميكروباص بيوصل، اكتبه وهنضيفه للكل.",
+  "reportMissingRouteHint": "مثلاً: ميني باص ٣٧ من الكيلو أربعة و نص لكفر طهرمس",
+  "excludeMetro": "من غير مترو",
+  "onlyRouteDisclaimer": "ده الطريق الوحيد اللي نعرفه حالياً للمشوار ده.",
+  "filterMinWalk": "أقل مشي",
+  "filterMinTransfers": "أقل تحويلات",
+  "railMapTitle": "خريطة شبكة القطارات والمترو",
+  "shareTripTooltip": "مشاركة المشوار",
+  "navFitRouteTooltip": "المسار كامل",
+  "navStopAlarmTooltip": "تنبيه النزول",
+  "navStopAlarmOn": "تنبيه النزول شغال",
+  "navStopAlarmOff": "تنبيه النزول مطفي",
+  "navStopAlarmAlert": "استعد للنزول! محطتك القادمة: {station}",
+  "metroTicketTitle": "شباك تذاكر المترو",
+  "navStopAlarmActiveToast": "تنبيه النزول: شغال (الموبايل هيهتز قبل محطتك بـ 400م)",
+  "navStopAlarmDisabledToast": "تنبيه النزول: مقفول",
+  "navRecenterFinding": "جاري تحديد موقعك...",
+  "navRecenterSuccess": "رجعناك لمكانك",
+  "navRecenterFallback": "معرفناش نحدد موقعك، رجعناك لبداية الرحلة",
+  "navOverviewToast": "نظرة عامة على خط السير",
+  "savedTripsTitle": "رحلاتي المحفوظة",
+  "savedTripsEmpty": "لسه ما حفظتش أي رحلات. احفظ مشاويرك المتكررة عشان تشوفها من غير نت.",
+  "saveTripTooltip": "حفظ المشوار",
+  "tripSavedToast": "اتحفظت في رحلاتك المحفوظة",
+  "tripRemovedToast": "اتمسحت من رحلاتك المحفوظة",
+  "offlineModeNotice": "وضع عدم الاتصال — بنعرض المسار المحفوظ",
+  "offlineBadge": "أوفلاين",
+  "savedTripsHomeSubtitle": "مشاويرك اليومية بضغطة واحدة ومن غير نت",
+  "viewModeList": "قائمة المسارات",
+  "viewModeCompare": "مقارنة سريعة",
+  "compareFastest": "الأسرع",
+  "compareCheapest": "الأوفر",
+  "compareLeastWalk": "أقل مشي",
+  "compareDirect": "مباشر",
+  "directRouteNoTransfers": "مباشر بدون تحويل",
+  "transfersCountBadge": "{count} تحويلات",
+  "walkMetersBadge": "{meters} متر مشي",
+  "quickReportTitle": "إبلاغ عن حالة الطريق",
+  "quickReportSubtitle": "ساعد ركاب تانيين يعرفوا ظروف المشوار دلوقتي",
+  "reportCategoryTraffic": "الطريق واقف / زحمة مش طبيعية",
+  "reportCategoryMissing": "الأتوبيس ما جاش / اتأخر كتير",
+  "reportCategoryCrowd": "المحطة أو العربية زحمة جداً",
+  "reportCategoryFare": "سواق الميكروباص / المحصل زوّد الأجرة",
+  "reportCategoryDiversion": "المسار اتغير أو في تحويلة",
+  "reportThanksToast": "شكراً — بلاغك اتسجل وهينبه باقي الركاب!",
+  "reportNotePlaceholder": "أي تفاصيل زيادة تحب تضيفها؟ (اختياري)",
+  "budgetTitle": "حاسبة مصاريف المواصلات",
+  "budgetSubtitle": "احسب مصاريف مواصلاتك الشهرية ووفر مع اشتراك المترو",
+  "dailyCostLabel": "تكلفة المشوار يومياً (ذهاب وعودة)",
+  "commuteDaysPerWeek": "أيام النزول في الأسبوع",
+  "commuteDaysCount": "{days} أيام ({total} مشوار في الشهر)",
+  "monthlyCostLabel": "إجمالي المصاريف شهرياً",
+  "metroSubscriptionSavingsTitle": "وفر مع اشتراك المترو",
+  "metroSubscriptionSavingsSubtitle": "لو عملت اشتراك شهري مرحلة واحدة، هتوفر {amount} ج.م كل شهر!",
+  "subTierPublic": "جمهور عادي",
+  "subTierStudents": "طلبة (خصم 90%)",
+  "subTierElderly": "كبار السن",
+  "subCostPerMonth": "{cost} ج.م / شهر",
+  "monthlySavings": "توفير {amount} ج.م شهرياً",
+  "metroOfficesTitle": "مكاتب الاشتراكات في محطات المترو",
+  "metroOfficesList": "العتبة، الشهداء، عدلي منصور، أنور السادات، جامعة القاهرة",
+  "walkManeuverStraight": "كمّل على طول",
+  "walkManeuverRight": "ادخل يمين",
+  "walkManeuverLeft": "ادخل شمال",
+  "walkManeuverUTurn": "لف وارجع",
+  "walkInDistance": "بعد {distance} {action}",
+  "walkApproachingBoarding": "قرّبت من محطة الركوب ({station})",
+  "walkAtDestination": "وصلت لوجهتك",
+  "metroNetworkMapTitle": "خريطة شبكة المترو والقطارات",
+  "metroNetworkMapButton": "خريطة الشبكة",
+  "schematicDiagramTab": "مخطط الشبكة",
+  "stationDirectoryTab": "دليل المحطات",
+  "interchangeTag": "محطة تبادلية",
+  "navHistory": "رحلاتي",
+  "historyTitle": "سجل الرحلات والتوفير",
+  "historySubtitle": "سجل مشاويرك وحساب التوفير",
+  "totalMoneySaved": "إجمالي التوفير",
+  "totalTimeSaved": "الوقت الموفَّر",
+  "totalTripsCount": "عدد الرحلات",
+  "co2Prevented": "انبعاثات وفّرتها",
+  "savingsComparedToTaxi": "مقارنة بالتاكسي وأوبر",
+  "timeSavedBypassing": "بتفادي زحمة الكباري والطرق",
+  "emptyHistoryTitle": "لسة ما عملتش مشاوير",
+  "emptyHistorySubtitle": "ابدأ مشوارك أو خطط لسكة جديدة مع جيدي، وأول ما تتحرك هتلاقي مشاويرك وفلوسك اللي وفرتها متسجلة هنا!",
+  "planTripButton": "خطط لمشوارك",
+  "loadDemoTripsButton": "عرض نموذج توفير تجريبي",
+  "repeatTripAction": "كرر السكة",
+  "clearHistoryConfirm": "عايز تمسح كل مشاويرك اللي فاتت؟",
+  "clearHistoryAction": "امسح السجل",
+  "clearHistorySuccess": "مسحنا سجل المشاوير خلاص",
+  "tripDeletedToast": "شيلنا المشوار من السجل",
+  "savingsCalculationInfoTitle": "بنحسب التوفير إزاي؟",
+  "savingsCalculationInfo": "بنحسب التوفير على أساس اختيارك انت بين السكك المتاحة: لما تختار السكة الأسرع بنحسب كام دقيقة وفّرتها مقارنة بباقي الخيارات، ولما تختار السكة الأوفر بنحسب كام جنيه وفّرته مقارنة بالخيارات التانية الأغلى.",
+  "filterAll": "الكل",
+  "filterThisWeek": "الأسبوع ده",
+  "filterThisMonth": "الشهر ده",
+  "filterMetro": "مترو",
+  "filterBus": "أتوبيس",
+  "filterMicrobus": "ميكروباص",
+  "minsSavedShort": "وفّرت {mins} دقيقة",
+  "hoursMinsSavedShort": "وفّرت {hours} ساعة و {mins} د",
+  "moneySavedShort": "وفّرت {amount} ج.م",
+  "sampleTripsLoadedToast": "حمّلنا مشاوير تجريبية",
+  "reportLineTitle": "بلّغ عن مشكلة في الخط",
+  "reportMetroTitle": "بلّغ عن مشكلة في المترو",
+  "reportReasonLineDoesNotExist": "الخط مش موجود أو اتلغى",
+  "reportReasonLineWrongPath": "مسار الخط اتغير أو بيعدي من شوارع تانية",
+  "reportReasonLineWrongStop": "فيه محطة ناقصة أو ترتيب المحطات غلط",
+  "reportReasonLineWrongFare": "الأجرة غلط",
+  "reportReasonLineBadTiming": "المواعيد أو عدد الرحلات مش مظبوط",
+  "reportReasonMetroStationClosed": "المحطة مقفولة أو مش شغالة",
+  "reportReasonMetroWrongTransfer": "تعليمات التغيير بين الخطوط غلط",
+  "reportReasonMetroWrongFare": "سعر التذكرة غلط",
+  "reportReasonMetroDelay": "فيه تأخير كبير أو عطل في الخدمة",
+  "reportPickStopOptional": "اختار المحطة اللي فيها المشكلة (اختياري)",
+  "reportAllStopsOption": "مشكلة عامة في الخط كله",
+  "reportActionSubmit": "ابعت البلاغ",
+  "reportActionCancel": "إلغاء",
+  "reportLineSuccessToast": "شكراً! بلاغك وصلنا وهيساعدنا نظبط الشبكة للكل.",
+  "reportCommentHint": "زوّدنا بتفاصيل زي الأجرة الفعلية أو اسم الشارع البديل",
+  "reportAnIssueWithThisLine": "بلّغ عن مشكلة في الخط ده",
+  "reportAnIssueWithMetro": "بلّغ عن مشكلة في رحلة المترو",
+  "reportCategoryOther": "مشكلة تانية",
+  "reportReasonPrompt": "المشكلة إيه؟",
+  "recentTripsTitle": "مشاويرك الأخيرة",
+  "recentTripsSubtitle": "مشاويرك اللي عملتها، تكلفتها والوقت اللي أخدته",
+  "noRecentTripsYet": "لسة ما عملتش مشاوير.. أول ما تتحرك هتلاقي مشاويرك متسجلة هنا!",
+  "customizeRouteCardTitle": "فصّل سكتك",
+  "customizeRouteCardSubtitle": "اختر وسيلة المواصلات اللي تريحك في السكة دي",
+  "customizeSelectVehiclePrompt": "المركبات المتاحة",
+  "customizeEstimatedDuration": "الوقت المتوقع",
+  "customizeEstimatedFare": "الأجرة التقديرية",
+  "customizeViewRouteAction": "عرض السكة دي",
+  "moneySavedPill": "وفّرت {amount} ج.م",
+  "timeSavedPill": "وفّرت {minutes} دقيقة",
+  "tripDetailFarePaid": "الأجرة المدفوعة",
+  "tripDetailVsTaxi": "مقارنة بالتاكسي وأوبر",
+  "tripDetailVsTraffic": "مقارنة بزحمة الشوارع",
+  "tripDetailOpenRecap": "تفاصيل المشوار",
+  "budgetScreenHeader": "احسب مصاريف مواصلاتك وشوف هتوفر كام باشتراك المترو",
+  "budgetHowItWorksTitle": "الحاسبة دي بتشتغل إزاي؟",
+  "budgetHowItWorksBody": "تذاكر المترو الفردية كل يوم بتسحب من جيبك كتير! باشتراك المترو الشهري هتركب براحتك بسعر ثابت ورخيص جداً (وبالذات للطلبة وكبار السن). ظبط مشاويرك وشوف هتوفر كام في جيبك.",
+  "budgetCommuterCategory": "نوع الراكب",
+  "budgetRoutineTrips": "{trips} مشوار في الشهر (مشوارين رايح جاي كل يوم)",
+  "budgetStageHeader": "المرحلة / عدد المحطات اللي بتركبها",
+  "budgetSingleTicketsMonthly": "تكلفة التذاكر الفردية شهرياً",
+  "historySavedTimeExplanation": "اخترت الأسرع ووفرت {minutes} دقيقة",
+  "historySavedMoneyExplanation": "اخترت الأوفر ووفرت {amount} جنيه",
+  "historyCustomizedChoice": "سكة مفصّلة على مزاجك",
+  "chooseOnMap": "حدد على الخريطة",
+  "confirmLocation": "تأكيد المكان",
+  "pinDropped": "نقطة محددة على الخريطة"
+}
+

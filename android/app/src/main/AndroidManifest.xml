@@ -1,0 +1,132 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:label="Guidy"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <!--
+              Lets Guidy be offered (NOT set as the automatic/exclusive
+              handler - that requires owning the linked domain, which we
+              don't for google.com) when a person taps a Google Maps link
+              or shares one to another app. android:autoVerify is
+              deliberately omitted: it would just fail verification since
+              we can't host the required assetlinks.json on google.com,
+              and Android skips App Links verification (falling back to
+              a normal, non-exclusive intent-filter) when it does.
+              geo: is Android's own standard scheme for map coordinates
+              and is the one most likely to actually show Guidy in the
+              "Open with" chooser - see lib/services/deep_link_service.dart
+              and lib/services/maps_link_parser.dart for how the incoming
+              link/URI gets parsed once Guidy receives it.
+
+              NOT implemented here: receiving a link via the Android/iOS
+              Share Sheet (someone taps Share on a Google Maps pin and
+              picks Guidy from the list) - that always shows a full app
+              chooser with no "default app" to lose out to, which would
+              make it more reliable than these VIEW intent-filters. It
+              needs a real native iOS Share Extension target (App Groups,
+              a second Xcode target, entitlements) that has to be built
+              and tested in Xcode directly - worth doing, just not
+              something to add speculatively without a way to verify it
+              actually works.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="geo"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https" android:host="maps.google.com"/>
+                <data android:scheme="https" android:host="www.google.com" android:pathPrefix="/maps"/>
+                <data android:scheme="https" android:host="maps.app.goo.gl"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+        <!--
+          Google Maps SDK for Android requires an API key with "Maps SDK for
+          Android" enabled in Google Cloud Console. Get one at
+          https://console.cloud.google.com/google/maps-apis/credentials
+          Value comes from secrets.properties (MAPS_API_KEY_ANDROID) via
+          android/app/build.gradle.kts, see secrets.properties.example
+          at the Flutter project root.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapsApiKey}"/>
+
+        <!--
+          AdMob setup. Value comes from secrets.properties
+          (ADMOB_APP_ID_ANDROID), defaults to Google's public TEST App
+          ID via secrets.properties.example, which is safe to ship during
+          development (only ever serves clearly-labeled test ads). Swap
+          for your real App ID before release.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}"/>
+
+        <!--
+          Facebook Login setup: create an app at
+          https://developers.facebook.com/apps, add "Facebook Login" as a
+          product, and fill in FACEBOOK_APP_ID / FACEBOOK_CLIENT_TOKEN in
+          secrets.properties (Flutter project root) before building.
+          You'll also need to register your debug + release keystore
+          hashes with the Facebook app (Settings -> Basic -> Android).
+        -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="${facebookAppId}"/>
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="${facebookClientToken}"/>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="Guidy" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="${fbLoginProtocolScheme}"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+</manifest>
